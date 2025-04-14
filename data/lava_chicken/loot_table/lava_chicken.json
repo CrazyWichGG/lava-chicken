@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_chicken",
+          "functions": [
+            {
+              "function": "set_custom_data",
+              "tag": {
+                "lava_chicken": true
+              }
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "item_name": {
+                  "text": "Lava Chicken",
+                  "color": "gold"
+                },
+                "rarity": "uncommon",
+                "damage_resistant": {
+                  "types": "#is_fire"
+                },
+                "food": {
+                  "nutrition": 6,
+                  "saturation": 8,
+                  "can_always_eat": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

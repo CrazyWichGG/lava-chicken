@@ -1,0 +1,1 @@
+scoreboard players operation @s lava_chicken.consume = duration lava_chicken.duration
