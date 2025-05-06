@@ -1,4 +1,5 @@
 #functions
+function lava_chicken:death_detection
 function lava_chicken:consume_event
 function lava_chicken:trigger
 

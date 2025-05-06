@@ -1,6 +1,7 @@
 #create scoreboard
 scoreboard objectives add lava_chicken.consume dummy
 scoreboard objectives add lava_chicken.duration dummy
+scoreboard objectives add lava_chicken.death deathCount
 scoreboard objectives add lava_chicken.config.duration trigger
 
 #set default values

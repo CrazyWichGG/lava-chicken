@@ -1,0 +1,2 @@
+execute as @a if score @s lava_chicken.death matches 1.. run scoreboard players set @s lava_chicken.consume 0
+execute as @a if score @s lava_chicken.death matches 1.. run scoreboard players reset @s lava_chicken.death
